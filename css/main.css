@@ -1,5 +1,5 @@
 body{
-    background: url("../img/pier-734702.jpg");;
+    background-image: url("../img/pier-734702.jpg") !important;
 }
 .photos{
     /*width: 100%;*/
