@@ -1,5 +1,5 @@
 body{
-    background: url("../img/backdrop.jpg");
+    background: url("../img/backdrop.jpg") no-repeat fixed;
 }
 .photos{
     /*width: 100%;*/
