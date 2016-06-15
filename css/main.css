@@ -1,6 +1,7 @@
 body{
     background: url("../img/backdrop.jpg") no-repeat fixed center;
     background-size: cover;
+    padding: 70px 1% 0 1%;
 }
 .photos{
     /*width: 100%;*/
@@ -8,5 +9,57 @@ body{
 }
 .carousel-cap-bg {
     border-radius: 10px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 99%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.75) 99%, rgba(0, 0, 0, 0.5) 100%);
+}
+.container-fluid{
+}
+.navbar-default {
+    /*background: rgba(50, 74, 140, 0.75) !important;*/
+    background: rgba(52, 80, 148, 0.75) !important;
+    border: 0;
+}
+.nav a, .navbar-brand{
+    color: #ffffff !important;
+}
+li.active a{
+    /*border-radius: 13px;*/
+    background: linear-gradient(to bottom, rgba(52, 80, 148, 0) 70%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%) !important;
+    filter: blur(200px)!important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background: linear-gradient(to bottom, rgba(52, 80, 148, 0) 70%,rgba(255,255,255,1) 85%,rgba(255,255,255,0) 100%) !important;
+}
+.dropdown-menu{
+    background: rgba(52, 80, 148, 0.75) !important;
+    border: 0;
+}
+.dropdown-menu li a:hover{
+    background: rgba(52, 80, 148, 0.75) !important;
+    border: 0;
+    border-radius: 10px;
+}
+.dropdown-menu li a:focus, .navbar-toggle:focus{
+    background: none !important;
+}
+.navbar-toggle{
+    background: none !important;
+}
+.navbar-toggle:hover{
+    transition: background 1s;
+    background: rgba(62, 73, 79, 0.75) !important;
+
+}
+#contactTable th, #contactTable td{
+    text-align: center;
+    color: #eaeaea;
+}
+#contactTable td a{
+    color: #eaeaea;
+}
+.panel{
+    background: rgba(133, 158, 170, 0.9) !important;
+    -webkit-filter: blur(0)
+}
+#contactTable button{
+    margin-top: 5%;
 }
