@@ -1,11 +1,11 @@
 body{
-    background-image: url("../img/pier-734702.jpg") !important;
+    background: url("../img/pier-734702.jpg");
 }
 .photos{
     /*width: 100%;*/
     height: 250px;
 }
-.carousel-cap-bg{
+.carousel-cap-bg {
     border-radius: 10px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.75) 0%,rgba(0,0,0,0.75) 99%,rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.75) 99%, rgba(0, 0, 0, 0.75) 100%);
 }
